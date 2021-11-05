@@ -29,7 +29,7 @@ namespace MyCalculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.output = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -76,19 +76,19 @@ namespace MyCalculator
             this.button49 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // output
             // 
-            this.textBox1.AccessibleName = "Scientific";
-            this.textBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox1.Location = new System.Drawing.Point(12, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(436, 40);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Scientific Calculator";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.output.AccessibleName = "Scientific";
+            this.output.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.output.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.output.Location = new System.Drawing.Point(12, 23);
+            this.output.Name = "output";
+            this.output.Size = new System.Drawing.Size(436, 40);
+            this.output.TabIndex = 1;
+            this.output.Text = "0";
+            this.output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -148,6 +148,7 @@ namespace MyCalculator
             this.button6.TabIndex = 7;
             this.button6.Text = "C";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -279,7 +280,9 @@ namespace MyCalculator
             this.button19.Size = new System.Drawing.Size(60, 35);
             this.button19.TabIndex = 20;
             this.button19.Text = "7 ";
+            this.button19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button_Click);
             // 
             // button20
             // 
@@ -289,7 +292,9 @@ namespace MyCalculator
             this.button20.Size = new System.Drawing.Size(60, 35);
             this.button20.TabIndex = 21;
             this.button20.Text = "8";
+            this.button20.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button_Click);
             // 
             // button21
             // 
@@ -299,7 +304,9 @@ namespace MyCalculator
             this.button21.Size = new System.Drawing.Size(60, 35);
             this.button21.TabIndex = 22;
             this.button21.Text = "9";
+            this.button21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button_Click);
             // 
             // button22
             // 
@@ -330,7 +337,9 @@ namespace MyCalculator
             this.button24.Size = new System.Drawing.Size(60, 35);
             this.button24.TabIndex = 25;
             this.button24.Text = "4";
+            this.button24.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button_Click);
             // 
             // button25
             // 
@@ -340,7 +349,9 @@ namespace MyCalculator
             this.button25.Size = new System.Drawing.Size(60, 35);
             this.button25.TabIndex = 26;
             this.button25.Text = "5";
+            this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button_Click);
             // 
             // button26
             // 
@@ -350,7 +361,9 @@ namespace MyCalculator
             this.button26.Size = new System.Drawing.Size(60, 35);
             this.button26.TabIndex = 27;
             this.button26.Text = "6";
+            this.button26.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button_Click);
             // 
             // button27
             // 
@@ -381,7 +394,9 @@ namespace MyCalculator
             this.button29.Size = new System.Drawing.Size(60, 35);
             this.button29.TabIndex = 30;
             this.button29.Text = "1";
+            this.button29.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button_Click);
             // 
             // button30
             // 
@@ -391,8 +406,9 @@ namespace MyCalculator
             this.button30.Size = new System.Drawing.Size(60, 35);
             this.button30.TabIndex = 31;
             this.button30.Text = "2";
+            this.button30.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button30.UseVisualStyleBackColor = true;
-            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.Click += new System.EventHandler(this.button_Click);
             // 
             // button31
             // 
@@ -402,7 +418,9 @@ namespace MyCalculator
             this.button31.Size = new System.Drawing.Size(60, 35);
             this.button31.TabIndex = 32;
             this.button31.Text = "3";
+            this.button31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button_Click);
             // 
             // button32
             // 
@@ -443,7 +461,9 @@ namespace MyCalculator
             this.button35.Size = new System.Drawing.Size(60, 35);
             this.button35.TabIndex = 36;
             this.button35.Text = "0";
+            this.button35.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button_Click);
             // 
             // button36
             // 
@@ -582,8 +602,11 @@ namespace MyCalculator
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.output);
+            this.MaximizeBox = false;
             this.Name = "MyCalculator";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -593,7 +616,7 @@ namespace MyCalculator
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox output;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

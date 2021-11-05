@@ -12,6 +12,8 @@ namespace MyCalculator
 {
     public partial class MyCalculator : Form
     {
+        private object txtboxDisplay;
+
         public MyCalculator()
         {
             InitializeComponent();
@@ -24,12 +26,24 @@ namespace MyCalculator
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-        
+ 
         }
 
-        private void button30_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
+            if (output.Text == "0")
+            {
+                output.Clear();
+            }
 
+            Button button = (Button)sender;
+            output.Text = output.Text + button.Text; 
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            output.Text = "0";
         }
     }
 }
