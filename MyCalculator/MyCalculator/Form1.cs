@@ -12,7 +12,10 @@ namespace MyCalculator
 {
     public partial class MyCalculator : Form
     {
-        private object txtboxDisplay;
+        Double val = 0;
+        String text = "";
+        bool oper_pres = false;
+
 
         public MyCalculator()
         {
@@ -31,7 +34,7 @@ namespace MyCalculator
 
         private void button_Click(object sender, EventArgs e)
         {
-            if (output.Text == "0")
+            if ((output.Text == "0")||(oper_pres))
             {
                 output.Clear();
             }
@@ -44,6 +47,36 @@ namespace MyCalculator
         private void button6_Click(object sender, EventArgs e)
         {
             output.Text = "0";
+        }
+
+        private void op_pres(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            text = button.Text;
+            val = Double.Parse(output.Text);
+            oper_pres = true; 
+        }
+
+        private void op_res(object sender, EventArgs e)
+        {
+            switch (text)
+            {
+                case "+":
+                    output.Text = (val + Double.Parse(output.Text)).ToString();
+                    break;
+                case "-":
+                    output.Text = (val - Double.Parse(output.Text)).ToString();
+                    break;
+                case "*":
+                    output.Text = (val * Double.Parse(output.Text)).ToString();
+                    break;
+                case "/":
+                    output.Text = (val / Double.Parse(output.Text)).ToString();
+                    break;
+                default:
+                    break;
+            }
+            oper_pres = false;
         }
     }
 }
