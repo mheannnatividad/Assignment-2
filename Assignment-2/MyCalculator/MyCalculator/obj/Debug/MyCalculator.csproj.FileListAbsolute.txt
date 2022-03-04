@@ -1,0 +1,30 @@
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Computer\Desktop\Program\MyCalculator\MyCalculator\obj\Debug\MyCalculator.MyCalculator.resources
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.MyCalculator.resources
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\Computer\Desktop\OOP\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.MyCalculator.resources
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.cache
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Rom\Desktop\mheann's files\Assignment-2\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
